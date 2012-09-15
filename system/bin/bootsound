@@ -1,0 +1,8 @@
+#!/system/bin/sh
+
+if [ -e /system/media/android_audio.mp3 ]; then
+	stagefright -a -o /system/media/android_audio.mp3
+fi
+
+exit 0
+

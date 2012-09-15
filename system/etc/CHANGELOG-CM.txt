@@ -1,0 +1,174 @@
+* GingerDX v028b (23-06-2012):
+
+    - Updated SuperSU to 0.92
+    - Fixed SMS/MMS Force Closing when "Pick-up-to-Call" is enabled
+    - Fixed "Date in the statusbar is not being updated"
+    - Fixed black block on the left when clock is being centered
+
+
+* GingerDX v028 (21-06-2012):
+	
+    - Latest CM7.2.0 Hero stable
+	- Pick-Up-To-Call in Phone dialer and MMS with GDX setting in CMParts
+    - Updated EN, DE, FR, IT, VI and RU translation for the USB storage mode / USB connection screen
+    - Updated RU translation in CMParts by yarik2720
+    - Updated GalleryDX to 2.3
+    - Updated SuperSU to 0.91
+    - Date now being displayed when Statusbar is being pulled down
+    - WiFi tetheruing TESTING (build.prop)
+        ro.tethering.kb_disconnect=1
+        wifi.hotspot.ti=1
+        ro.semc.wifi.hostapd=1
+
+    Alfs Kernel Addon:
+    - Version bump to v007 to match GingerDX v028
+
+
+* GingerDX v027 (15-06-2012):
+
+    - Latest CM7.2.0rc4 Hero nightly
+    - AChep's ICSandwich Theme now set by default
+    - AChepified! ;) Merged AChep's ICS Layouts natively into the ROM
+      See: http://forum.xda-developers.com/showthread.php?t=1324924
+      (Best thanks to AChep for granting us permissions)
+    - DeskClock: "Shake to Snooze Alarm" by AChep
+    - GingerDX setting to set the hour for GDX Update to check for a new update
+    - Updated ES File Explorer to 1.6.1.6
+    - Updated Nemus Launcher to 1.6.3
+    - Updated SuperSU to 0.90
+    - Russian translation updated by yarik2720
+    - Merged CM9 backports aspee (LG P500 GingerDX Port)
+         - Kernel samepage merging (for Alfs v09+)
+           NOTE: This feature only works on Alfs v09+ and will have no effect on Stock Kernel or Alfs v08 (or older).
+           To enable KSM: System settings -> CyanogenMod settings -> Performance
+           CHECK "Kernel samepage merging" to enable the feature.
+           Be warned that this code is considered UNSTABLE and may cause unexpected problems.
+           Try at your own risk!
+         - Current CPU Frequency
+           Shown at: System settings -> CyanogenMod settings -> Performance -> CPU settings
+
+    Alfs Kernel Addon:
+    - Version bump to v006 to match GingerDX v027
+
+
+* GingerDX v026 (17-05-2012):
+
+    - Latest CM7.2.0-rc1 Hero nightly
+    - Added Battery Life tweaks by PureMotive
+    - Added "Battery Status Bar" by spitemare
+    - Added Menu button to receive call by eagleeyetom
+    - Added GPS Country Optimizer by djnilse
+    - Added GDX Update Notify by djnilse
+    - Added Nemus Launcher 1.6.2.2
+    - Added ES File Manager 1.6.1.5
+    - Updated Play Store to 3.5.19
+    - Updated GalleryDX (based on QuickPic 2.2.4)
+    - Updated AChep's ICSandwich theme to 032-build-408
+    - Updated timezone data to 2011n as included with the compile
+    - Replaced ChainDD's Superuser with Chainfire's SuperSU 0.89
+    - Replaced Google Play Music with Stock CM7 Music app
+    - Removed CMStats.apk
+    - Removed CMUpdateNotify.apk
+    - Removed Zeam Launcher
+    - Removed Root Browser
+    - Changed lockscreen branding to "Team GingerDX"
+    - Full Polish translation
+
+    Alfs Kernel Addon:
+    - Added Basic KSM Support for Alfs v09
+
+
+* GingerDX v025 (11-04-2012):
+
+    - Latest CM7.2.0-rc1 Hero nightly
+    - Integrated Stock Kernel Modules into the ROM
+    - Replaced system/etc/hosts past a normal hosts file (Use AdAway or any similar app)
+    - Tweaked various lightsensor settings in hw_config.sh
+    - Tweaked gps.conf to include NTP servers for the regions where the X8 was/is being sold
+    - Base system clean-ups
+    - Added ICS Alarms, Notifications, Ringtones and UI sounds
+    - Updated Gmail 2.3.6
+    - Updated Play Store 3.5.16
+    - Added GalleryDX, based on QuickPic 2.2.2
+    - Brought back center clock in status bar
+    - Dismissed "Disable boot animation" setting
+    - Replaced DroidSans.ttf and DroidSans-Bold.ttf past their ICS Roboto font counterparts
+    - Replaced Clocktopia.ttf past the ICS AndroidClock.ttf counterpart
+    - Russian translation update by AChep
+    - German translation update by B.Jay
+    - Italian translation update by silverio_di and Firelord70
+    - Bulgarian translation update by didkoslawow
+
+    Alfs Kernel Addon:
+    - Version bump to v004 to match GingerDX v025
+
+
+* Alfs Kernel Addon v003b (05-04-2012):
+
+    - Added missing busybox
+
+
+* Alfs Kernel Addon v003 (30-03-2012):
+
+    - Included Alfs USB tethering by alfsamsung
+
+
+* GingerDX v024 (27-03-2012):
+
+    - Latest CM7.2.0-rc1 Hero nightly
+    - Updated Play Store to v3.5.15
+    - Updated AChep's ICSandwich Theme to 031-build-406
+    - Removed LauncherPro
+    - Added ZeamLauncher v3.1.10 by cloakt
+    - Added ICS Wallpapers into CyanogenMod Wallpapers
+    - Removed ClockworkMod Recovery v4.0.1.5
+    - Added ClockworkMod Recovery v5.0.2.8 by Team GingerDX
+    - Removed broken HTC Live Wallpaper
+    - Added HTC Sense Live Wallpaper by death1246
+    - Refreshed Google Apps
+    - Fixed a file permission problem in updater-script
+
+    Alfs Kernel Addon:
+    - Incorporated some optimizations suggested by alfsamsung
+
+    Stock Kernel Modules:
+    - Added ax8netfilter plus hw_config.sh modification to load full netfilter modules
+    - NEW: update-GingerDX-Stock-Overclock.zip for easy overclock module installation
+
+    Fixes:
+    - Resolved a 'Divide by zero' in the framework
+    - Lowered delay for screen rotation change from 2s to 0.6s
+    - Removed unused code
+
+    Thanks:
+    - vislavskid for beta testing
+
+
+* GingerDX v023 (14-03-2012):
+
+    - Latest CM7.2.0-rc0 Hero nightly
+    - Removed boot sound (haunt eagleeyetom if you miss it ;))
+    - Removed CM7 File Manager
+    - Added Root Browser by jrummy16
+    - Removed AChep's A-Theme Lite
+    - Added AChep's ICSandwich Theme 030 (will be updated with each release)
+    - Added eagleeyetom's EduRoam WiFi fix
+    - Updated ax8mt (Stock Kernel Modules) to the requested fixed version
+    - Updated GPS to Google's AGPS servers
+    - Updated ClockworkMod Recovery to 4.0.1.5 by unic0de
+    - Removed xRecovery
+    - Updated Busybox to 1.19.4
+    - Updated Play Store to 3.4.7 (formerly Android Market)
+    - Updated Play Music to 4.1.513 (formerly Google Music)
+    - Updated Superuser to 3.0.7 (su binary v3.0.3.2)
+    - Updated YouTube to 2.4.4
+    - Updated Gmail to 2.3.5.2
+    - Updated VoiceSearch to 2.1.4
+    - Added Adreno Libs by atis112 for Alfs Kernel (Alfs Kernel AddOn)
+    - Added vold+chargemon by alfsamsung for Alfs Kernel (Alfs Kernel AddOn)
+    - Added ax8netfilter by AnDyX for Stock Kernel (Stock Kernel Modules)
+
+    Thanks:
+    - deedii, vislavskid, DefcOn, Xmaster8 and Maze for beta testing
+      doixanh for resolving the lockscreen problem (you rule, man)
+
